@@ -65,7 +65,7 @@ function squareClicks(e){
     //*     console log what data type it is
     let yVal = e.target.id.split("_")[1];
     // * 16. get the xVal using a similar command.  What is the single thing that should change?
-    let xVal = e.target.id.split("_")[2];
+    
     // * 17. console log the value of wasGoldFound.  What is it?  Describe it in your own words.
     let wasGoldFound = findGoldAtLocation(yVal, xVal);
     if(wasGoldFound.found==true){
