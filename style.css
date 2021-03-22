@@ -29,7 +29,7 @@ li{
     /* *lets make each cell have a black background, and take up aproximately 33% width and height*/
     height:33%;
     border: 1px solid black;
-    flex-basis:32%;
+    flex-basis:31%;
     /* *now we center our text vertically and horizontall */
     display: flex;
     flex-direction: row;
